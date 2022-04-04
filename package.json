@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode production",
-    "start": "webpack serve"
+    "start": "webpack serve",
+    "lint": "npx eslint --ext .tsx,.jsx,.ts,.js src",
+    "format": "npx prettier --write src"
   },
   "keywords": [],
   "author": "",
